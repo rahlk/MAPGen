@@ -1,0 +1,85 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2l5-7>
+Subject: Job 512620: </share/rkrish11/miniconda/bin/python2.7 parGALE.py GALE 16 XOMO> Exited
+
+Job </share/rkrish11/miniconda/bin/python2.7 parGALE.py GALE 16 XOMO> was submitted from host <login01.hpc.ncsu.edu> by user <rkrish11> in cluster <henry2>.
+Job was executed on host(s) <3*n2l5-7>, in queue <single_chassis>, as user <rkrish11> in cluster <henry2>.
+                            <3*n2l5-9>
+                            <2*n2l6-1>
+                            <1*n2l6-5>
+                            <1*n2l5-10>
+                            <6*n2l5-14>
+</home/rkrish11> was used as the home directory.
+</home/rkrish11/git/Experimental-Algorithms/multiProc/src> was used as the working directory.
+Started at Thu Dec  3 01:32:08 2015
+Results reported at Thu Dec  3 02:08:04 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/share/rkrish11/miniconda/bin/python2.7 parGALE.py GALE 16 XOMO
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 143.
+
+Resource usage summary:
+
+    CPU time   :      6.85 sec.
+    Max Memory :       504 MB
+    Max Swap   :     11569 MB
+
+    Max Processes  :        19
+    Max Threads    :        23
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err/err.16> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n3l1-8>
+Subject: Job 543559: </share/rkrish11/miniconda/bin/python2.7 parGALE.py GALE 16 DTLZ> Exited
+
+Job </share/rkrish11/miniconda/bin/python2.7 parGALE.py GALE 16 DTLZ> was submitted from host <login01.hpc.ncsu.edu> by user <rkrish11> in cluster <henry2>.
+Job was executed on host(s) <5*n3l1-8>, in queue <single_chassis>, as user <rkrish11> in cluster <henry2>.
+                            <5*n3l1-9>
+                            <4*n3l1-14>
+                            <2*n3l1-13>
+</home/rkrish11> was used as the home directory.
+</home/rkrish11/git/Experimental-Algorithms/multiProc/src> was used as the working directory.
+Started at Thu Dec  3 05:18:03 2015
+Results reported at Thu Dec  3 05:34:16 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/share/rkrish11/miniconda/bin/python2.7 parGALE.py GALE 16 DTLZ
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time   :     10.67 sec.
+    Max Memory :       407 MB
+    Max Swap   :      9161 MB
+
+    Max Processes  :        19
+    Max Threads    :        23
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err/err.16> for stderr output of this job.
+

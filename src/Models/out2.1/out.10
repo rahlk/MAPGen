@@ -1,0 +1,45 @@
+[1.7749779224395752, 1.7137839794158936, 1.6263678073883057, 1.6204469203948975, 1.7772250175476074, 1.5803859233856201, 1.624316930770874, 1.6274189949035645, 1.6646878719329834, 1.6534111499786377]
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2l6-10.hpc.ncsu.edu>
+Subject: Job 512290: </share/rkrish11/miniconda/bin/python2.7 parDE.py dEvol 10 XOMO> Done
+
+Job </share/rkrish11/miniconda/bin/python2.7 parDE.py dEvol 10 XOMO> was submitted from host <login01.hpc.ncsu.edu> by user <rkrish11> in cluster <henry2>.
+Job was executed on host(s) <4*n2l6-10>, in queue <single_chassis>, as user <rkrish11> in cluster <henry2>.
+                            <3*n2l6-13>
+                            <4*n2l4-13>
+                            <2*n2l6-6>
+                            <1*n2l6-7>
+                            <1*n2l5-12>
+                            <1*n2l4-6>
+</home/rkrish11> was used as the home directory.
+</home/rkrish11/git/Experimental-Algorithms/multiProc/src> was used as the working directory.
+Started at Thu Dec  3 00:17:56 2015
+Results reported at Thu Dec  3 00:18:13 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/share/rkrish11/miniconda/bin/python2.7 parDE.py dEvol 10 XOMO
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :    147.42 sec.
+    Max Memory :         2 MB
+    Max Swap   :        35 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err/err.10> for stderr output of this job.
+

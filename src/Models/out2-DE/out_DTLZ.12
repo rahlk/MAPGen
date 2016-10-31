@@ -1,0 +1,43 @@
+[85.51759099960327, 85.41135215759277, 85.40558505058289, 85.40540409088135, 85.42566514015198, 85.41475009918213, 85.4172260761261, 85.39800906181335, 85.41113305091858, 85.40686702728271]
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2l6-4.hpc.ncsu.edu>
+Subject: Job 515727: </share/rkrish11/miniconda/bin/python2.7 parDE.py dEvol 12 DTLZ> Done
+
+Job </share/rkrish11/miniconda/bin/python2.7 parDE.py dEvol 12 DTLZ> was submitted from host <login01.hpc.ncsu.edu> by user <rkrish11> in cluster <henry2>.
+Job was executed on host(s) <6*n2l6-4>, in queue <single_chassis>, as user <rkrish11> in cluster <henry2>.
+                            <1*n2l6-11>
+                            <1*n2l5-10>
+                            <2*n2l5-13>
+                            <2*n2l6-2>
+</home/rkrish11> was used as the home directory.
+</home/rkrish11/git/Experimental-Algorithms/multiProc/src> was used as the working directory.
+Started at Thu Dec  3 03:15:32 2015
+Results reported at Thu Dec  3 03:29:49 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/share/rkrish11/miniconda/bin/python2.7 parDE.py dEvol 12 DTLZ
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :      4.26 sec.
+    Max Memory :       245 MB
+    Max Swap   :      8777 MB
+
+    Max Processes  :        15
+    Max Threads    :        19
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err/err.12> for stderr output of this job.
+

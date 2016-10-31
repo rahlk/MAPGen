@@ -1,0 +1,111 @@
+parGALE.py:51: RuntimeWarning: overflow encountered in exp
+  return np.exp(loss1(i,x,y) / n)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:51: RuntimeWarning: overflow encountered in exp
+  return np.exp(loss1(i,x,y) / n)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:51: RuntimeWarning: overflow encountered in exp
+  return np.exp(loss1(i,x,y) / n)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+Traceback (most recent call last):
+  File "parGALE.py", line 190, in <module>
+    eval(cmd())
+  File "<string>", line 1, in <module>
+  File "parGALE.py", line 174, in GALE
+    collect.extend(p.map(partial_gale1, per))
+  File "/share/rkrish11/miniconda/lib/python2.7/multiprocessing/pool.py", line 251, in map
+    return self.map_async(func, iterable, chunksize).get()
+  File "/share/rkrish11/miniconda/lib/python2.7/multiprocessing/pool.py", line 567, in get
+    raise self._value
+ValueError: need more than 1 value to unpack
+parGALE.py:51: RuntimeWarning: overflow encountered in exp
+  return np.exp(loss1(i,x,y) / n)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:51: RuntimeWarning: overflow encountered in exp
+  return np.exp(loss1(i,x,y) / n)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:51: RuntimeWarning: overflow encountered in exp
+  return np.exp(loss1(i,x,y) / n)
+parGALE.py:51: RuntimeWarning: overflow encountered in exp
+  return np.exp(loss1(i,x,y) / n)
+parGALE.py:51: RuntimeWarning: overflow encountered in exp
+  return np.exp(loss1(i,x,y) / n)
+parGALE.py:51: RuntimeWarning: overflow encountered in exp
+  return np.exp(loss1(i,x,y) / n)
+parGALE.py:51: RuntimeWarning: overflow encountered in exp
+  return np.exp(loss1(i,x,y) / n)
+parGALE.py:51: RuntimeWarning: overflow encountered in exp
+  return np.exp(loss1(i,x,y) / n)
+parGALE.py:51: RuntimeWarning: overflow encountered in exp
+  return np.exp(loss1(i,x,y) / n)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:51: RuntimeWarning: overflow encountered in exp
+  return np.exp(loss1(i,x,y) / n)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:51: RuntimeWarning: overflow encountered in exp
+  return np.exp(loss1(i,x,y) / n)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:51: RuntimeWarning: overflow encountered in exp
+  return np.exp(loss1(i,x,y) / n)
+parGALE.py:51: RuntimeWarning: overflow encountered in exp
+  return np.exp(loss1(i,x,y) / n)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+close failed in file object destructor:
+sys.excepthook is missing
+lost sys.stderr
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+parGALE.py:86: RuntimeWarning: invalid value encountered in double_scalars
+  return (a**2-b**2+c**2)/(2*c)
+Traceback (most recent call last):
+  File "parGALE.py", line 190, in <module>
+    eval(cmd())
+  File "<string>", line 1, in <module>
+  File "parGALE.py", line 174, in GALE
+    collect.extend(p.map(partial_gale1, per))
+  File "/share/rkrish11/miniconda/lib/python2.7/multiprocessing/pool.py", line 251, in map
+    return self.map_async(func, iterable, chunksize).get()
+  File "/share/rkrish11/miniconda/lib/python2.7/multiprocessing/pool.py", line 567, in get
+    raise self._value
+RuntimeError: maximum recursion depth exceeded while calling a Python object

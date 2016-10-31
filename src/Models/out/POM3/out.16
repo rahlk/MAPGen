@@ -1,0 +1,40 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2c2-10>
+Subject: Job 509987: </share/rkrish11/miniconda/bin/python2.7 parDE.py dEvol 16 DTLZ> Done
+
+Job </share/rkrish11/miniconda/bin/python2.7 parDE.py dEvol 16 DTLZ> was submitted from host <login01.hpc.ncsu.edu> by user <rkrish11> in cluster <henry2>.
+Job was executed on host(s) <4*n2c2-10>, in queue <single_chassis>, as user <rkrish11> in cluster <henry2>.
+                            <4*n2c2-3>
+                            <8*n2c2-8>
+</home/rkrish11> was used as the home directory.
+</home/rkrish11/git/Experimental-Algorithms/multiProc/src> was used as the working directory.
+Started at Wed Dec  2 23:06:13 2015
+Results reported at Wed Dec  2 23:11:49 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/share/rkrish11/miniconda/bin/python2.7 parDE.py dEvol 16 DTLZ
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :      5.71 sec.
+    Max Memory :       336 MB
+    Max Swap   :     11375 MB
+
+    Max Processes  :        19
+    Max Threads    :        23
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err/err.16> for stderr output of this job.
+

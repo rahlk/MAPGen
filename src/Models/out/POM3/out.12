@@ -1,0 +1,45 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n2l4-3>
+Subject: Job 509985: </share/rkrish11/miniconda/bin/python2.7 parDE.py dEvol 12 DTLZ> Exited
+
+Job </share/rkrish11/miniconda/bin/python2.7 parDE.py dEvol 12 DTLZ> was submitted from host <login01.hpc.ncsu.edu> by user <rkrish11> in cluster <henry2>.
+Job was executed on host(s) <7*n2l4-3>, in queue <single_chassis>, as user <rkrish11> in cluster <henry2>.
+                            <3*n2l5-7>
+                            <2*n2l5-9>
+                            <1*n2l6-5>
+                            <1*n2l6-11>
+                            <1*n2l5-10>
+                            <1*n2l5-14>
+</home/rkrish11> was used as the home directory.
+</home/rkrish11/git/Experimental-Algorithms/multiProc/src> was used as the working directory.
+Started at Wed Dec  2 23:06:13 2015
+Results reported at Wed Dec  2 23:22:03 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/share/rkrish11/miniconda/bin/python2.7 parDE.py dEvol 12 DTLZ
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 143.
+
+Resource usage summary:
+
+    CPU time   :      5.20 sec.
+    Max Memory :       244 MB
+    Max Swap   :      7006 MB
+
+    Max Processes  :        15
+    Max Threads    :        19
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err/err.12> for stderr output of this job.
+
