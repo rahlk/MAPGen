@@ -5,4 +5,8 @@ MAPGen is a multiobjective automated patch generation and program repair toolkit
 
 # Prequisites
 
-MAPGen uses binaries from GenProg
+MAPGen uses binaries from GenProg which modifies C ASTs. The source code for this is in OCAML. So, you'll definitely need to install that first.
+
+``` shell
+[$] brew install opam
+```
