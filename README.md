@@ -1,5 +1,5 @@
-# MAPGen
-(M)ultiobjective (A)utomated (P)atch (G)enerator
+MAPGen: (M)ultiobjective (A)utomated (P)atch (G)enerator
+---
 
 # What's this?
 
