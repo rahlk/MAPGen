@@ -1,49 +1,28 @@
-SHELL := /bin/zsh
-Make     = $(MAKE) --no-print-directory
-Makefile = $(PWD)/Makefile
-Act      = action
+# Makefile for Program Repair Tool (v2)
 
-# find all directories that are not . files
-Dirs     = $(shell find . -type d  -not -path '*/\.*')
+# see src/Makefile for more information
 
-actions:
-	@$(foreach Dir,$(Dirs),\
-	      	(cd $(Dir); \
-                 $(MAKE) -f $(Makefile) Dir=$(Dir) $(Act););)
+all: doc code lib
 
-# write this code, assuming you have landed in a $(Dir)
-action:
-	@echo $(Dir)
-	@ls | wc -l
+.PHONY: clean doc test
 
+doc:
+	$(MAKE) -C src/ $(MAKECMDGOALS)
 
-sync:  ready 
-	@- git status
-	@- git add --all . 
-	@- git commit -am "auto commit"
-	@- git push origin master
+code:
+	$(MAKE) -C src/ $(MAKECMDGOALS)
 
-commit:  ready
-	@- git add --all . 
-	@- git status
-	@- git commit -a 
-	@- git push origin master
+lib:
+	$(MAKE) -C src/ $(MAKECMDGOALS)
 
-update:; @- git pull origin master
-status:; @- git status
+source := $(wildcard src/*.ml)
 
-ready: gitting 
+tags: $(source)
+	otags $^
 
-gitting:
-	@git config --global credential.helper cache
-	@git config credential.helper 'cache --timeout=3600'
+clean:
+	$(MAKE) -C src/ $(MAKECMDGOALS);	\
+	$(MAKE) -C test/ $(MAKECMDGOALS)
 
-you:
-	@git config --global user.name "Your name"
-	@git config --global user.email your@email.address
-
-rahlk:
-	@git config --global user.name "Rahul Krishna"
-	@git config --global user.email i.m.ralk@gmail.com
-
-
+test:
+	$(MAKE) -C test/ $(MAKECMDGOALS)
